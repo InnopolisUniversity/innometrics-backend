@@ -5,6 +5,5 @@ virtualenv -p python3 innometricsenv
 source innometricsenv/bin/activate
 pip install -r requirements.txt
 
-echo "Add next lines to your ~/.bashrc file"
-echo "export INNOMETRICS_BACKEND_PATH=\"/srv/innometrics-backend\" # where srv is the directory you cloned the code"
-echo "export PYTHONPATH=\"$INNOMETRICS_BACKEND_PATH:$INNOMETRICS_BACKEND_PATH/api:$INNOMETRICS_BACKEND_PATH/db\""
+echo "Run with run.sh, use it as a substitute for flask command"
+echo "For example, to start the server, run ./run.sh run"
